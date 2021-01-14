@@ -1,0 +1,132 @@
+body {
+  color: #363958;
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  max-width: 350px;
+}
+.custom-bg {
+  background-color: #fffbf0;
+}
+.heading {
+  font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+}
+.heading span {
+  color: #fabe4c;
+}
+.category-title {
+  font-family: "Bebas Neue", cursive;
+}
+.buy-btn {
+  color: white;
+  width: 150px;
+  height: 50px;
+  background-color: #87a21c;
+  border-radius: 10px;
+}
+.buy-btn:hover {
+  color: lightgray;
+  background-color: #697e16;
+}
+.card-custom {
+  border: none;
+  border-radius: 5%;
+}
+.product-image-holder {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5%;
+  background-color: #f1f1f1;
+}
+.product-image-holder img {
+  height: 350px;
+  width: 100%;
+}
+.product-title {
+  font-weight: bold;
+}
+.price h1 {
+  color: #fabe4c;
+  font-weight: bold;
+}
+.branding-section {
+  margin-top: 150px;
+}
+.mini-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 20px 0px;
+}
+.mini-card-icon {
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+}
+.mini-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.9em;
+}
+.mini-card-body h5 {
+  font-weight: bold;
+}
+footer {
+  margin-top: 100px;
+  height: 300px;
+  background-color: silver;
+}
+footer p {
+  text-align: center;
+  margin: 50px;
+}
+.subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.subscription h3 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2em;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form input,
+form input:focus [type="email"] {
+  margin-right: 10px;
+  padding: 0px 20px;
+  height: 50px;
+  width: 280px;
+  border: 2px solid #87a21c;
+  border-radius: 5px;
+  outline: none;
+}
+@media screen and (max-width: 768px) {
+  .category-title {
+    padding-left: 0 !important;
+    text-align: center;
+  }
+  .bottom-branding-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .mini-card {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mini-card-body {
+    align-items: center;
+  }
+}
